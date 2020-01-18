@@ -1,8 +1,8 @@
 from abc import *
+import six
 
+@six.add_metaclass(ABCMeta)
 class Abstract(object):
-    __metaclass__ = ABCMeta
-
     def __init__(self):
         pass
 
